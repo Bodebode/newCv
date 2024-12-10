@@ -4,7 +4,7 @@ window.addEventListener('scroll', function() {
     header.classList.toggle('sticky', window.scrollY > 0);
 });
 
-// Smooth Scrolling
+// Smooth Scrolling. 
 const navLinks = document.querySelectorAll('.nav-link');
 navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
